@@ -1,13 +1,13 @@
-# filepaths
 
-- Smith lab project directory: ``/fs/ess/PAS2905``
 
 # important
 
 - any jobs you run **must be run on the Ascend cluster** (perks of being [COM](https://www.osc.edu/resources/technical_support/supercomputers/ascend/osu_college_of_medicine_compute_service))
 
 
-# logging in via ssh
+# navigating the hpc
+
+## logging in via ssh
 
 1. In terminal/command line run: 
   `` $ ssh username@ascend.osc.edu ``
@@ -15,12 +15,18 @@
      - You can substitute in any cluster where ascend is in the hostname (ex. ``username@cardinal.osc.edu``) if you want to
 1. You will initially be dumped in your home dir (ex. ``/users/PAS2905/username``)
 
+## filepaths
+
+- Smith lab project directory: ``/fs/ess/PAS2905``
+
 # links and resources
 
 ## very helpful !
 
 - [available software](https://www.osc.edu/resources/available_software/browse_software)
   - list of all of the available software on OSC, make sure to filter by system! 
+- [job script info](https://www.osc.edu/supercomputing/batch-processing-at-osc/job-scripts)
+  - info to correctly build your job's bash script
 
 ## basic management
 
@@ -32,3 +38,6 @@
 - [osc.edu](https://www.osc.edu/)
   - documentation and resources for OSC
 
+## example scripts
+
+- [general script template for jobs](example.sh)
